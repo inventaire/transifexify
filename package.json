@@ -1,6 +1,6 @@
 {
   "name": "transifexify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a little script to remove undefined, null or empty values in a json file to avoid Transifex errors",
   "bin": {
     "transifexify": "bin/transifexify"
