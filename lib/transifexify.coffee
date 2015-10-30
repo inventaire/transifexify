@@ -8,7 +8,7 @@ require 'colors'
 exist = (obj)-> obj?
 
 logObjLength = (label, obj)->
-  console.log label, Object.keys(obj).length.toString().grey
+  console.log label.grey, Object.keys(obj).length.toString()
 
 getNewFilePath = (filePath)->
   return filePath.replace('.json', '') + '.transifex.json'
