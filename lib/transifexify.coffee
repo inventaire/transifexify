@@ -7,7 +7,7 @@ require 'colors'
 
 exist = (obj)-> obj?
 
-logObjLength = (obj, label)->
+logObjLength = (label, obj)->
   console.log label, Object.keys(obj).length.toString().grey
 
 getNewFilePath = (filePath)->
