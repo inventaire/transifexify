@@ -8,7 +8,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "coffee -c lib"
+    "build": "coffee -c lib",
+    "prepublish": "npm run build"
   },
   "author": "maxlath",
   "license": "MIT",
