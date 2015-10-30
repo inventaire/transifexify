@@ -18,5 +18,9 @@
   },
   "devDependencies": {
     "coffee-script": "^1.10.0"
-  }
+  },
+  "keywords": [
+    "transifex",
+    "json"
+  ]
 }
