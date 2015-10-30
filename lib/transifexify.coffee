@@ -31,7 +31,7 @@ transifexify = (filePath)->
   console.log 'done!'.green, newFilePath
 
 
-transifexifyAll = (filePaths)->
+transifexifyAll = (filesPaths)->
   filesPaths.forEach transifexify
 
 module.exports = transifexifyAll
