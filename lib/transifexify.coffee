@@ -5,7 +5,7 @@ require 'colors'
 # takes json files as input with names like fr.json
 # and creates a fr.transifex.json file that shouldn't throw errors when parsed by Transifex
 
-exist = (obj)-> obj?
+exist = (obj)-> obj?.length > 0
 
 logObjLength = (label, obj)->
   console.log label.grey, Object.keys(obj).length.toString()
