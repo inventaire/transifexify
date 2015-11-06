@@ -13,7 +13,14 @@ npm install -g transifexify
 It takes json files as input with names like `fr.json`
 and creates a `fr.transifex.json` file that shouldn't throw errors when parsed by Transifex
 
+* you can pass either one file
 ```bash
 transifexify path/to/lang/files/de.json
 # => path/to/lang/files/de.transifex.json
+```
+
+* or several
+```bash
+transifexify path/to/lang/files/*.json
+# => path/to/lang/files/de.transifex.json, path/to/lang/files/fr.transifex.json etc
 ```
