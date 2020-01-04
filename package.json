@@ -12,7 +12,6 @@
   "author": "maxlath",
   "license": "MIT",
   "dependencies": {
-    "lodash.pick": "^3.1.0",
     "tiny-chalk": "^2.0.0"
   },
   "devDependencies": {},
