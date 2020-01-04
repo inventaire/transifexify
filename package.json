@@ -18,5 +18,16 @@
   "keywords": [
     "transifex",
     "json"
-  ]
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inventaire/transifexify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/inventaire/transifexify/issues"
+  },
+  "homepage": "https://github.com/inventaire/transifexify#readme"
 }
