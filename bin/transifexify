@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-var transifexifyAll = require('../lib/transifexify');
-var filesPaths = process.argv.slice(2);
-transifexifyAll(filesPaths);
+const transifexifyAll = require('../lib/transifexify')
+const filesPaths = process.argv.slice(2)
+transifexifyAll(filesPaths)
