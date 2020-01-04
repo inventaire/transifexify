@@ -7,9 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "coffee -c lib",
-    "prepublish": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "maxlath",
   "license": "MIT",
